@@ -1,7 +1,12 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
-  "scripts": { 
+  "scripts": {
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "dependencies": {
+    "@microsoft/omnichannel-chat-components": "^1.1.16",
+    "@microsoft/omnichannel-chat-sdk": "^1.11.7-main.e13c432",
+    "@microsoft/omnichannel-chat-widget": "^1.8.4-main.424a580"
   }
 }
