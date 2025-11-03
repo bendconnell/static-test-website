@@ -8,8 +8,6 @@ import { version as chatSdkVersion } from '@microsoft/omnichannel-chat-sdk/packa
 
 import './App.css';
 
-type ILiveChatWidgetProps = React.ComponentProps<typeof LiveChatWidget>;
-
 function App() {
   const [liveChatWidgetProps, setLiveChatWidgetProps] = useState<ILiveChatWidgetProps>();
 
